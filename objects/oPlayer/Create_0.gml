@@ -26,3 +26,5 @@ hp = 6;
 //level timer
 levelTimer = 36;
 
+// speed boost
+boost = false

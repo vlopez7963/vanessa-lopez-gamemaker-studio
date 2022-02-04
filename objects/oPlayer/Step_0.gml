@@ -66,7 +66,20 @@ if (y >= room_height)
 	PlayerDeath();
 } 
 
-
+//speed boost 
+//add limited time next
+if keyboard_check(vk_shift)
+{
+	boost = true;
+	xSpeed = 6;
+	jumpForce = -12;
+}
+else 
+{
+	boost = false;
+	xSpeed = 4;
+	jumpForce = -10;
+}
 
 
 
