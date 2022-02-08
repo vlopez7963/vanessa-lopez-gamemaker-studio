@@ -35,6 +35,22 @@ if (place_meeting(x + xVector, y , oWall))
 		xVector = 0;
 		
 	}	
+	
+	if (place_meeting(x + xVector, y , oTurret))
+	{
+		//check 1 pixel in the desired xDirection until we hit a wall
+		// ! means "not"
+		while(!place_meeting(x + xVector, y , oTurret))
+		{
+			//move 1 pixel in the direction your player is moving 
+			x = x + xDirection;
+		}
+		//otherwise you are coming into contact with oWall and should stop
+		xVector = 0;
+		
+	}	
+	
+	
 //otherwise move as normal
 x = x + xVector;
 
@@ -51,6 +67,20 @@ if (place_meeting(x, y + yVector, oWall))
 		}	
 		yVector = 0;
 	}	
+	
+	if (place_meeting(x, y + yVector, oTurret))
+	{
+		//check 1 pixel in the desired xDirection until we hit a wall
+		// ! means "not"
+		//sign means "return the positive or negative sign nof value"
+		// if yVector = -10, sign(yVector) = -1, but if yVector = +10, sign(yVector) = +1 
+		while (!place_meeting(x, y + sign(yVector), oTurret))
+		{
+			//move 1 pixel in the direction your player is moving 
+			y = y + sign(yVector);
+		}	
+		yVector = 0;
+	}	
 //otherwise move as normal	
 y = y + yVector;
 
@@ -59,6 +89,12 @@ if (place_meeting(x, y +1, oWall) and (jump))
 {
 	yVector = jumpForce;	
 }	
+
+if (place_meeting(x, y +1, oTurret) and (jump))
+{
+	yVector = jumpForce;	
+}	
+
 
 //die in a pit and restart level
 if (y >= room_height)

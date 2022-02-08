@@ -14,7 +14,7 @@ if (isInvincible)
 xDirection = sign(oPlayer.x - x);
 xVector = xSpeed * xDirection;
 
-if (abs(oPlayer.x - x) < 128)
+if (abs(oPlayer.x - x) < 128 and (abs(oPlayer.x - x) > (oPlayer.sprite_width/2 + sprite_width/2)))
 {
 	x = x + xVector
 }
