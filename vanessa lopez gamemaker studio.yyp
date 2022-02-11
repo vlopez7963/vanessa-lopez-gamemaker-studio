@@ -17,6 +17,7 @@
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
     {"id":{"name":"oEnemyPatrol","path":"objects/oEnemyPatrol/oEnemyPatrol.yy",},"order":9,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":11,},
+    {"id":{"name":"sCatRight","path":"sprites/sCatRight/sCatRight.yy",},"order":14,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":7,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":7,},
     {"id":{"name":"oExplosion","path":"objects/oExplosion/oExplosion.yy",},"order":2,},
