@@ -117,5 +117,12 @@ else
 	jumpForce = -10;
 }
 
+//set sprite
+	switch(xDirection)
+{
+case 0: sprite_index = sCat; break; 
+case 1: sprite_index = sCatRight; break; 
+}
+
 
 
