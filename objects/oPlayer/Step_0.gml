@@ -122,6 +122,7 @@ else
 {
 case 0: sprite_index = sCat; break; 
 case 1: sprite_index = sCatRight; break; 
+case -1: sprite_index = sCatLeft; break;
 }
 
 
