@@ -28,3 +28,10 @@ levelTimer = 36;
 
 // speed boost
 boost = false
+
+enum states
+{
+	walking,
+	jumping
+}
+state = states.walking;
