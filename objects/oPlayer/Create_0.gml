@@ -14,8 +14,6 @@ yVector = 0;
 grv = 0.3;
 jumpForce = -10;
 
-//coins and points
-global.coins = 0;
 
 //invincibility
 isInvincible = false;
@@ -24,10 +22,13 @@ isInvincible = false;
 hp = 6;
 
 //level timer
-levelTimer = 36;
+levelTimer = 35;
 
 // speed boost
-boost = false
+boost = false;
+
+enterShip = false;
+enteredShip = false;
 
 enum states
 {

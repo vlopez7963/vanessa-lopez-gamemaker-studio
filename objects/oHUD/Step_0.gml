@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+levelTimer -= 1/room_speed;
 
-global.coins = 0;
-global.points = 0;
-levelTimer = 35
+if (levelTimer <= 0)
+{
+	PlayerDeath();
+}
