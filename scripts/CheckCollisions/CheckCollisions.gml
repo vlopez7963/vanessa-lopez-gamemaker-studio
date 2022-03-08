@@ -5,6 +5,10 @@ function CheckCollisionsX()
 	CheckInputs();
 	//what direction player is moving 
 	xDirection = right - left;
+	if(xDirection != 0)
+{	
+	image_xscale = xDirection
+}
 
 	//speed &direction player is moving at
 	xVector = xDirection * xSpeed;
@@ -40,10 +44,9 @@ function CheckCollisionsX()
 x = x + xVector;
 
 
-}
 function CheckCollisionsY()
 {
-	CheckInputs()
+	CheckInputs();
 	yVector = yVector + grv;
 	
 	if (place_meeting(x, y + yVector, oWall))
@@ -73,7 +76,7 @@ function CheckCollisionsY()
 		}	
 		yVector = 0;
 	}	
-	
+}
 //otherwise move as normal	
 y = y + yVector;
 }

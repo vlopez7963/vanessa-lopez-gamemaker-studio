@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/Sprite15/Sprite15.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/Sprite15/Sprite15.yy",},"LayerId":{"name":"85c4a62d-afd7-4aaf-9fed-b88d0447453e","path":"sprites/Sprite15/Sprite15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"resourceVersion":"1.0","name":"a5669aad-e619-4771-af48-a066049ef669","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/sSpaceship/sSpaceship.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/sSpaceship/sSpaceship.yy",},"LayerId":{"name":"85c4a62d-afd7-4aaf-9fed-b88d0447453e","path":"sprites/sSpaceship/sSpaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSpaceship","path":"sprites/sSpaceship/sSpaceship.yy",},"resourceVersion":"1.0","name":"a5669aad-e619-4771-af48-a066049ef669","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},
+    "spriteId": {"name":"sSpaceship","path":"sprites/sSpaceship/sSpaceship.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e6c35c38-767c-4a29-bb79-7fe55c4dc784","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/Sprite15/Sprite15.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e6c35c38-767c-4a29-bb79-7fe55c4dc784","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5669aad-e619-4771-af48-a066049ef669","path":"sprites/sSpaceship/sSpaceship.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},
+    "parent": {"name":"sSpaceship","path":"sprites/sSpaceship/sSpaceship.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite15",
+    "name": "sSpaceship",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite15",
+  "name": "sSpaceship",
   "tags": [],
   "resourceType": "GMSprite",
 }

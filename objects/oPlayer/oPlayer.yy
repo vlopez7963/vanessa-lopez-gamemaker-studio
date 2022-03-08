@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sCat",
-    "path": "sprites/sCat/sCat.yy",
+    "name": "sPlayerIdle",
+    "path": "sprites/sPlayerIdle/sPlayerIdle.yy",
   },
   "solid": false,
   "visible": true,

@@ -2,6 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function StatePlayerJumping()
 {
+	CheckCollisionsX()
+	
+	if (canJump)
+	{
+		yVector = jumpForce;
+		canJump = false;
+	}
+	
 	//what does the state do?
 	//If we are tochuing the ground and we press jump, fly like an eagle
 	if (place_meeting(x, y +1, oWall) and (jump))
@@ -13,15 +21,18 @@ function StatePlayerJumping()
 	{
 		yVector = jumpForce;	
 	}	
-	//animations for the state 
+
+	CheckCollisionsY();
 	
 	//conditions for leaving the states
 	if(place_meeting(x, y +1, oWall))
 	{
 		state = states.walking;
+		canJump = true;
 	}
 		if(place_meeting(x, y +1, oTurret))
 	{
 		state = states.walking;
+		canJump = true;
 	}
 }
