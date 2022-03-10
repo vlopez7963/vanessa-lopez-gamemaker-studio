@@ -1,6 +1,7 @@
 //code that runs when player is created
 
-canJump = true 
+canJump = true;
+
 //how many pixels per frame we want the player to move
 xSpeed = 4;
 

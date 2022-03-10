@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSpaceship",
-    "path": "sprites/sSpaceship/sSpaceship.yy",
+    "name": "sCar",
+    "path": "sprites/sCar/sCar.yy",
   },
   "solid": false,
   "visible": true,

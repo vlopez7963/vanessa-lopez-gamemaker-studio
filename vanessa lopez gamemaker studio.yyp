@@ -40,6 +40,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":5,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":12,},
+    {"id":{"name":"oCar","path":"objects/oCar/oCar.yy",},"order":15,},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":10,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"level1","path":"rooms/level1/level1.yy",},"order":0,},

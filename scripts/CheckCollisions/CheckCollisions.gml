@@ -7,7 +7,7 @@ function CheckCollisionsX()
 	xDirection = right - left;
 	if(xDirection != 0)
 {	
-	image_xscale = xDirection
+	image_xscale = xDirection;
 }
 
 	//speed &direction player is moving at
@@ -42,14 +42,13 @@ function CheckCollisionsX()
 	
 //otherwise move as normal
 x = x + xVector;
-
+}
 
 function CheckCollisionsY()
 {
 	CheckInputs();
 	yVector = yVector + grv;
-	
-	if (place_meeting(x, y + yVector, oWall))
+if (place_meeting(x, y + yVector, oWall))
 	{
 		//check 1 pixel in the desired xDirection until we hit a wall
 		// ! means "not"
@@ -63,20 +62,20 @@ function CheckCollisionsY()
 		yVector = 0;
 	}	
 	
-	if (place_meeting(x, y + yVector, oTurret))
-	{
-		//check 1 pixel in the desired xDirection until we hit a wall
-		// ! means "not"
-		//sign means "return the positive or negative sign nof value"
-		// if yVector = -10, sign(yVector) = -1, but if yVector = +10, sign(yVector) = +1 
-		while (!place_meeting(x, y + sign(yVector), oTurret))
+if (place_meeting(x, y + yVector, oTurret))
+{
+	//check 1 pixel in the desired xDirection until we hit a wall
+	// ! means "not"
+	//sign means "return the positive or negative sign nof value"
+	// if yVector = -10, sign(yVector) = -1, but if yVector = +10, sign(yVector) = +1 
+	while (!place_meeting(x, y + sign(yVector), oTurret))
 		{
 			//move 1 pixel in the direction your player is moving 
 			y = y + sign(yVector);
 		}	
 		yVector = 0;
-	}	
-}
+}	
+
 //otherwise move as normal	
 y = y + yVector;
 }

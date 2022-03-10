@@ -4,19 +4,20 @@ function StatePlayerIdle()
 {
 	//What the state does
 	CheckInputs();
-	CheckCollisionsY()
+	CheckCollisionsY();
 	
 	//How to exit the state 
 	if(xDirection != 0)
 	{
 		state = states.walking;
 	}
-	if (place_meeting(x, y +1, oWall) and (jump))
+	
+	if (place_meeting(x, y + 1, oWall) and (jump))
 	{
 		state = states.jumping; 
 	}	
 
-	if (place_meeting(x, y +1, oTurret) and (jump))
+	if (place_meeting(x, y + 1, oTurret) and (jump))
 	{
 		state = states.jumping;
 	}	
