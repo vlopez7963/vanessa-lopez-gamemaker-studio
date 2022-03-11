@@ -57,14 +57,14 @@ if(xDirection != 0)
 if keyboard_check(vk_shift)
 {
 	boost = true;
-	xSpeed = 6;
-	jumpForce = -12;
+	xSpeed = 8.5;
+	jumpForce = -5;
 }
 else 
 {
 	boost = false;
 	xSpeed = 7;
-	jumpForce = -10;
+	jumpForce = -4;
 }
 
 //death

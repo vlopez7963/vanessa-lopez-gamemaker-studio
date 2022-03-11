@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 65,
+  "bbox_right": 66,
   "bbox_top": 0,
-  "bbox_bottom": 49,
+  "bbox_bottom": 45,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 67,
-  "height": 50,
+  "height": 46,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"77d33717-d102-4006-a277-872d3dcabdd8","path":"sprites/sCar/sCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"77d33717-d102-4006-a277-872d3dcabdd8","path":"sprites/sCar/sCar.yy",},"LayerId":{"name":"c21f3f48-1d62-4229-a020-bc0cd23e2278","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCar","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","name":"77d33717-d102-4006-a277-872d3dcabdd8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b7778142-e257-4d6c-8c7e-202b141c1e59","path":"sprites/sCar/sCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b7778142-e257-4d6c-8c7e-202b141c1e59","path":"sprites/sCar/sCar.yy",},"LayerId":{"name":"c21f3f48-1d62-4229-a020-bc0cd23e2278","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCar","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","name":"b7778142-e257-4d6c-8c7e-202b141c1e59","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sCar","path":"sprites/sCar/sCar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"36d74228-6df5-42f4-a991-64c46e5f7b8f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77d33717-d102-4006-a277-872d3dcabdd8","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0c5224c1-abc7-45d7-bf12-48ce81595a9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7778142-e257-4d6c-8c7e-202b141c1e59","path":"sprites/sCar/sCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 33,
-    "yorigin": 25,
+    "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCar","path":"sprites/sCar/sCar.yy",},
