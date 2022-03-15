@@ -57,7 +57,7 @@ if(xDirection != 0)
 if keyboard_check(vk_shift)
 {
 	boost = true;
-	xSpeed = 8.5;
+	xSpeed = 9;
 	jumpForce = -5;
 }
 else 

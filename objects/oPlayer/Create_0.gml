@@ -15,7 +15,7 @@ yVector = 0;
 
 //gravity levels
 grv = 0.3;
-jumpForce = -10;
+jumpForce = -6;
 
 
 //invincibility
@@ -30,8 +30,8 @@ levelTimer = 35;
 // speed boost
 boost = false;
 
-enterShip = false;
-enteredShip = false;
+enterCar = false;
+enteredCar = false;
 
 enum states
 {
