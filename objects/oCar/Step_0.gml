@@ -72,3 +72,12 @@ if (y >= room_height)
 {
 	PlayerDeath();
 } 
+
+
+
+if keyboard_check_pressed(vk_backspace)
+{
+	instance_create_layer(oCar.x, oCar.y - 5, "Instances", oPlayer);
+	instance_create_layer(oCar.x, oCar.y, "Instances", oCarSprite);
+	instance_destroy(self);
+}

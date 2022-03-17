@@ -6,8 +6,8 @@ function PlayerHurt()
 	{
 		oPlayer.isInvincible = true;
 		alarm_set(0,2*room_speed);
-		oPlayer.hp --;
-		if (oPlayer.hp < 1)
+		global.hp --;
+		if (global.hp < 1)
 		{
 			PlayerDeath();
 		}
@@ -20,4 +20,5 @@ function PlayerDeath()
 {
 		room_restart();
 		oHUD.levelTimer = 35
+		global.hp = 6;
 }

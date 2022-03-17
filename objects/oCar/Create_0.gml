@@ -22,9 +22,6 @@ jumpForce = -4;
 //invincibility
 isInvincible = false;
 
-//health points
-hp = 6;
-
 //level timer
 levelTimer = 35;
 

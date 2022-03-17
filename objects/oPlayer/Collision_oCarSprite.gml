@@ -8,4 +8,3 @@ if enterCar and keyboard_check(vk_enter)
 	instance_change(oCar, true);
 	instance_destroy(other);
 }
-

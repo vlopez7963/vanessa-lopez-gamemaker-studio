@@ -40,6 +40,7 @@
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":10,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":20,},
+    {"id":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},"order":4,},
     {"id":{"name":"level1","path":"rooms/level1/level1.yy",},"order":0,},
   ],
   "Options": [
@@ -56,6 +57,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
     {"roomId":{"name":"level1","path":"rooms/level1/level1.yy",},},
     {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"roomId":{"name":"levelTest","path":"rooms/levelTest/levelTest.yy",},},
