@@ -12,7 +12,7 @@ if (y <= other.y - other.sprite_height*0.9)
 //otherwise restart level
 else 
 	{
-		x = x - xVector*20;
+		//x = x - xVector*20;
 		PlayerHurt();
 	}
 

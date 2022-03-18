@@ -24,10 +24,15 @@ if (place_meeting(x + xVector, y, oWall))
 	xDirection = -xDirection;
 	turnTimer = 2.4;
 }
-x = x + xVector;
+
+
 
 if (place_meeting(x + xVector, y, oPlayer))
 {
 	xDirection = -xDirection;
 	turnTimer = 2.4;
+
 }
+
+
+x = x + xVector;
