@@ -5,10 +5,12 @@
 instance_destroy(other);
 
 global.coins += 1;
-if global.coins = 3
+if global.coins = 5
 {
-	global.coins = 2
+
+	global.coins = 4;
 	draw_text(camera_get_view_x(view_camera[0]) + 64, camera_get_view_y(view_camera[0]) + 32, "MAX COINS ");
+
 }
 	
 
