@@ -6,3 +6,4 @@ global.points = 0;
 global.hp = 6;
 global.keys = 0
 levelTimer = 35
+

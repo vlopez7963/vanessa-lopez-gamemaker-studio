@@ -46,4 +46,3 @@ sprite_array[states.walking] = sPlayerWalking;
 sprite_array[states.jumping] = sPlayerJumping;
 sprite_array[states.idle] = sPlayerIdle;
 
-

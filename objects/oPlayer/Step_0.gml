@@ -15,6 +15,7 @@ if (y >= room_height)
 
 //speed boost 
 //add limited time next no
+
 if keyboard_check(vk_shift)
 {
 	boost = true;

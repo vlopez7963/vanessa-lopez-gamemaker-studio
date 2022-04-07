@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBrick",
-    "path": "sprites/sBrick/sBrick.yy",
+    "name": "sBrick21",
+    "path": "sprites/sBrick21/sBrick21.yy",
   },
   "solid": false,
   "visible": true,

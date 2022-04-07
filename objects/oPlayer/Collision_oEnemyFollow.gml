@@ -6,7 +6,7 @@ if (y <= other.y - other.sprite_height*0.9)
 
 	{
 		//bounce in the air a bit
-		yVector = 0.5*jumpForce;
+		yVector = jumpForce;
 		EnemyHurt();
 	}
 //otherwise restart level
