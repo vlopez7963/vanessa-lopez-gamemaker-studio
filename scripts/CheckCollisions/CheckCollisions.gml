@@ -27,11 +27,11 @@ function CheckCollisionsX()
 		xVector = 0;
 	}	
 	
-	if (place_meeting(x + xVector, y , oTurret))
+		if (place_meeting(x + xVector, y , oMovingWall))
 	{
 		//check 1 pixel in the desired xDirection until we hit a wall
 		// ! means "not"
-		while(!place_meeting(x + xVector, y , oTurret))
+		while(!place_meeting(x + xVector, y , oMovingWall))
 		{
 			//move 1 pixel in the direction your player is moving 
 			x = x + xDirection;
@@ -39,6 +39,30 @@ function CheckCollisionsX()
 		//otherwise you are coming into contact with oWall and should stop
 		xVector = 0;
 	}	
+
+	if (place_meeting(x + xVector, y , oEnemyPatrol))
+	{
+		//check 1 pixel in the desired xDirection until we hit a wall
+		// ! means "not"
+		while(!place_meeting(x + xVector, y , oEnemyPatrol))
+		{
+			//move 1 pixel in the direction your player is moving 
+			x = x + xDirection;
+		}
+		//otherwise you are coming into contact with oWall and should stop
+		xVector = 0;
+	}	
+	
+	if (place_meeting(x + xVector, y , oEnemyFollow))
+	{
+		//check 1 pixel in the desired xDirection until we hit a wall
+		// ! means "not"
+		while(!place_meeting(x + xVector, y , oEnemyFollow))
+		{
+			//move 1 pixel in the direction your player is moving 
+			x = x + xDirection;
+		}
+	}
 	
 //otherwise move as normal
 x = x + xVector;
@@ -48,6 +72,7 @@ function CheckCollisionsY()
 {
 	CheckInputs();
 	yVector = yVector + grv;
+	
 if (place_meeting(x, y + yVector, oWall))
 	{
 		//check 1 pixel in the desired xDirection until we hit a wall
@@ -62,19 +87,33 @@ if (place_meeting(x, y + yVector, oWall))
 		yVector = 0;
 	}	
 	
-if (place_meeting(x, y + yVector, oTurret))
+if (place_meeting(x, y + yVector, oDoor))
 {
 	//check 1 pixel in the desired xDirection until we hit a wall
 	// ! means "not"
 	//sign means "return the positive or negative sign nof value"
 	// if yVector = -10, sign(yVector) = -1, but if yVector = +10, sign(yVector) = +1 
-	while (!place_meeting(x, y + sign(yVector), oTurret))
+	while (!place_meeting(x, y + sign(yVector), oDoor))
 		{
 			//move 1 pixel in the direction your player is moving 
 			y = y + sign(yVector);
 		}	
 		yVector = 0;
-}	
+}		
+
+if (place_meeting(x, y + yVector, oMovingWall))
+	{
+		//check 1 pixel in the desired xDirection until we hit a wall
+		// ! means "not"
+		//sign means "return the positive or negative sign nof value"
+		// if yVector = -10, sign(yVector) = -1, but if yVector = +10, sign(yVector) = +1 
+		while (!place_meeting(x, y + sign(yVector), oMovingWall))
+		{
+			//move 1 pixel in the direction your player is moving 
+			y = y + sign(yVector);
+		}	
+		yVector = 0;
+	}	
 
 //otherwise move as normal	
 y = y + yVector;
