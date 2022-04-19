@@ -3,13 +3,13 @@
 
 
 //boolean for invincibility
-isInvincible = false;
+
 
 //health points
-hp = 1;
+
 
 //set timer
-invTimer = 0.5;
+
 
 //patrol timer
 turnTimer = 2.5;
