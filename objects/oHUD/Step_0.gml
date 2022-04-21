@@ -6,3 +6,13 @@ if (levelTimer <= 0)
 {
 	PlayerDeath();
 }
+
+if keyboard_check(vk_lcontrol)
+{
+	inventory = true
+	
+}
+else
+{
+	inventory = false
+}

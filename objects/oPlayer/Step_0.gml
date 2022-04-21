@@ -16,15 +16,15 @@ if (y >= room_height)
 //speed boost 
 //add limited time next no
 
-if keyboard_check(vk_shift)
+if global.boost = true and keyboard_check(vk_shift)
 {
-	boost = true;
+
 	xSpeed = 6;
 	jumpForce = -8;
 }
 else 
 {
-	boost = false;
+
 	xSpeed = 4;
 	jumpForce = -6;
 }

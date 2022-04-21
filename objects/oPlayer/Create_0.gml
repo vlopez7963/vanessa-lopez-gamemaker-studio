@@ -25,7 +25,7 @@ isInvincible = false;
 levelTimer = 35;
 
 // speed boost
-boost = false;
+
 
 enterCar = false;
 enteredCar = false;

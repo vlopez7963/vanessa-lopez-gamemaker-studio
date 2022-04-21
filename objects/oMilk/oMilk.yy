@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite23",
-    "path": "sprites/Sprite23/Sprite23.yy",
+    "name": "sMilk",
+    "path": "sprites/sMilk/sMilk.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object20",
+  "name": "oMilk",
   "tags": [],
   "resourceType": "GMObject",
 }
