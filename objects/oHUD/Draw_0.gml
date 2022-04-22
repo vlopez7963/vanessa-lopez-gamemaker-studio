@@ -11,12 +11,10 @@ draw_text(camera_get_view_x(view_camera[0]) + 92, camera_get_view_y(view_camera[
 
 
 
-if inventory = true
-{
+//if inventory = true
 
-	if global.boost = true
+if global.boost = true
 	{
-		draw_sprite(sMilk, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 100 )
+		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "NEW POWER UP");
+		draw_sprite(sBoost, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 100 )
 	}
-}
-

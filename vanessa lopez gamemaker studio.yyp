@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"order":4,},
+    {"id":{"name":"sBoost","path":"sprites/sBoost/sBoost.yy",},"order":28,},
     {"id":{"name":"oOpenedDoor","path":"objects/oOpenedDoor/oOpenedDoor.yy",},"order":17,},
     {"id":{"name":"sCar","path":"sprites/sCar/sCar.yy",},"order":17,},
     {"id":{"name":"fDubai","path":"fonts/fDubai/fDubai.yy",},"order":0,},
@@ -31,7 +32,7 @@
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":3,},
     {"id":{"name":"oTurret","path":"objects/oTurret/oTurret.yy",},"order":6,},
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
-    {"id":{"name":"oMilk","path":"objects/oMilk/oMilk.yy",},"order":21,},
+    {"id":{"name":"oBoost","path":"objects/oBoost/oBoost.yy",},"order":21,},
     {"id":{"name":"oEnemyPatrol","path":"objects/oEnemyPatrol/oEnemyPatrol.yy",},"order":9,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":22,},
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},"order":18,},

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMilk",
-    "path": "sprites/sMilk/sMilk.yy",
+    "name": "sBoost",
+    "path": "sprites/sBoost/sBoost.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oMilk",
+  "name": "oBoost",
   "tags": [],
   "resourceType": "GMObject",
 }
