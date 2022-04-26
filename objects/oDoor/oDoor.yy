@@ -5,10 +5,7 @@
   },
   "solid": true,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sDoor",
-    "path": "sprites/sDoor/sDoor.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

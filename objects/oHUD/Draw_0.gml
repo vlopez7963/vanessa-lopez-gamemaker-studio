@@ -18,3 +18,9 @@ if global.boost = true
 		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "NEW POWER UP");
 		draw_sprite(sBoost, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 100 )
 	}
+	
+if global.lockedDoor = true
+	{
+		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");
+	}
+		
