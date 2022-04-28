@@ -1,0 +1,2 @@
+oHUD.levelTimer = 35
+

@@ -18,3 +18,12 @@ else
 {
 	inventory = false
 }
+if global.lockedDoor = true
+{
+		global.lockedDoorTimer -= 1/room_speed;
+		if lockedDoorTimer <=0
+		{
+			global.lockedDoor = false
+			lockedDoorTimer = 3
+		}	
+}

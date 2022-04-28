@@ -22,7 +22,7 @@
   "creationCodeFile": "${project_dir}/rooms/Room3/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_7A46385F","path":"rooms/levelTest/levelTest.yy",},
+    {"name":"inst_7A46385F","path":"rooms/Intro0/Intro0.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -50,7 +50,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "levelTest",
+  "name": "Intro0",
   "tags": [],
   "resourceType": "GMRoom",
 }

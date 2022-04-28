@@ -9,10 +9,15 @@ openDoor = true;
 	//room_goto_next();
 //}
 
-if keyboard_check(vk_enter)
+if keyboard_check(vk_enter) and global.keys >=1
 {
 instance_change(oOpenedDoor, true);
-openedDoor = true
+openedDoor = true;
+global.keys -=1;
 }
 
+if keyboard_check(vk_enter) and global.keys = 0 
+{
+global.lockedDoor= true;
+}
 

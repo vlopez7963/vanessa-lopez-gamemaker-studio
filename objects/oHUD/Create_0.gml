@@ -6,6 +6,7 @@ global.hp = 6;
 global.keys = 0;
 global.boost = false;
 global.lockedDoor = false;
+global.lockedDoorTimer = 3
 inventory = false
 levelTimer = 35;
 
