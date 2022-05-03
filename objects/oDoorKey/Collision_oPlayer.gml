@@ -16,8 +16,8 @@ openedDoor = true;
 global.keys -=1;
 }
 
-if keyboard_check(vk_enter) and global.keys = 0 
+if keyboard_check(vk_enter) and global.keys = 0 and openedDoor = false
 {
-global.lockedDoor= true;
+global.lockedDoor = true;
 }
 
