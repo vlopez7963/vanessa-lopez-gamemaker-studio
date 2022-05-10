@@ -13,12 +13,17 @@ draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[
 
 //if inventory = true
 
+//boost sprite and text
 if global.boost = true
+{
+	draw_sprite(sBoost, 0, camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 35)
+}
+	if boostText = true
 	{
-		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "NEW POWER UP");
-		draw_sprite(sBoost, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 100 )
+		draw_text(camera_get_view_x(view_camera[0]) + 400, camera_get_view_y(view_camera[0]) + 200, "hold SHIFT to use BOOST");
 	}
-	
+
+//locked door text for oDoorKey
 if global.lockedDoorText = true
 	{
 		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");

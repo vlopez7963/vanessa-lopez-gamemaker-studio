@@ -12,7 +12,7 @@ openFridge = true;
 if keyboard_check(vk_enter)
 {
 instance_change(oOpenedFridge, true);
-openedFridge = true
+global.openedFridge = true
 }
 
 

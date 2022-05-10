@@ -14,4 +14,11 @@ if global.lockedDoor = true
 	{
 		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");
 	}
-		
+	
+if global.openedFridge = true
+	{
+		draw_sprite(sMilk, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 100 )
+		draw_sprite(sFish, 0, camera_get_view_x(view_camera[0]) + 500,camera_get_view_y(view_camera[0])+ 100 )
+		draw_sprite(sChicken, 0, camera_get_view_x(view_camera[0]) + 400,camera_get_view_y(view_camera[0])+ 100 )
+		draw_sprite(sWatermelon, 0, camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 100 )
+	}	

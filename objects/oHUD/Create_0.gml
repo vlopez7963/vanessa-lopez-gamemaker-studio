@@ -9,5 +9,5 @@ global.lockedDoor = false;
 
 inventory = false
 levelTimer = 35;
-
-
+boostTimer = 2
+boostText = false

@@ -8,7 +8,7 @@ if (levelTimer <= 0)
 }
 
 
-
+//inventory
 if keyboard_check(vk_lcontrol)
 {
 	inventory = true
@@ -19,4 +19,13 @@ else
 	inventory = false
 }
 
-
+// boost text timer
+if global.boost = true
+{
+	boostTimer -=1/room_speed;
+	boostText = true
+	if boostTimer <= 0
+	{
+		boostText = false
+	}
+}

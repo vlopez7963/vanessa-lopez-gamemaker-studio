@@ -4,6 +4,7 @@
 global.keys = 0;
 global.boost = false;
 global.lockedDoor = false;
+global.openedFridge = false;
 inventory = false
 
 
