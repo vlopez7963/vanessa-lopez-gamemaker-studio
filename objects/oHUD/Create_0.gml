@@ -11,3 +11,7 @@ inventory = false
 levelTimer = 35;
 boostTimer = 2
 boostText = false
+
+//list
+objectsDestroyed = [];
+global.createdObjectID = 0

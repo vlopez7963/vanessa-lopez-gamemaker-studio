@@ -18,3 +18,14 @@ if (abs(oPlayer.x - x) < 128 and (abs(oPlayer.x - x) > (oPlayer.sprite_width/2 +
 {
 	x = x + xVector
 }
+
+if stun
+{
+	stunTimer -= 1/room_speed;
+	if stunTimer <= 0
+	{
+		stunTimer = 2;
+		stun = false;
+		xSpeed = 2
+	}
+}

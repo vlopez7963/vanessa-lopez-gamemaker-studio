@@ -3,7 +3,7 @@
 //display current coin count and points
 draw_set_font(fDubai)
 
-draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 64, "Keys: " +string(global.keys));
+//draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 64, "Keys: " +string(global.keys));
 
 
 

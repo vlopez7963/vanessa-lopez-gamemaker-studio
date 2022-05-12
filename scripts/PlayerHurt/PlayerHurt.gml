@@ -18,6 +18,8 @@ function PlayerHurt()
 //replace room_restart with PlayerDeath
 function PlayerDeath()
 {
+	//oHUD.objectsDestroyed = [];
+	global.createdObjectID = 0;
 		room_restart();
 		oHUD.levelTimer = 35
 		global.hp = 6;
