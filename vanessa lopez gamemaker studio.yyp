@@ -71,6 +71,7 @@
     {"id":{"name":"oCar","path":"objects/oCar/oCar.yy",},"order":15,},
     {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},"order":14,},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":10,},
+    {"id":{"name":"sCheck","path":"sprites/sCheck/sCheck.yy",},"order":37,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oOpenedFridge","path":"objects/oOpenedFridge/oOpenedFridge.yy",},"order":27,},
     {"id":{"name":"sTable","path":"sprites/sTable/sTable.yy",},"order":20,},

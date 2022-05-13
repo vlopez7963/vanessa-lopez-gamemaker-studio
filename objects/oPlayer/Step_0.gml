@@ -18,13 +18,13 @@ if (y >= room_height)
 
 if global.boost = true and keyboard_check(vk_shift)
 {
-
+	global.usingBoost = true
 	xSpeed = 5.5;
 	jumpForce = -7.5;
 }
 else 
 {
-
+	global.usingBoost = false
 	xSpeed = 4;
 	jumpForce = -6;
 }

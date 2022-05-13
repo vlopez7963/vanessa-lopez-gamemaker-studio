@@ -7,5 +7,5 @@ global.lockedDoor = false;
 global.openedFridge = false;
 inventory = false
 
-
-
+//items
+global.fish = false
