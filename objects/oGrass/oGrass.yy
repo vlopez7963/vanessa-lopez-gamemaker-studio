@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "sTile",
-    "path": "sprites/sTile/sTile.yy",
+    "name": "sGrass",
+    "path": "sprites/sGrass/sGrass.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWall",
+    "path": "objects/oWall/oWall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oGrass",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -22,11 +22,12 @@ draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[
 if global.boost = true and global.usingBoost = false
 {
 	draw_sprite(sBoost, 0, camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 35)
+	//instance_destroy(oBoost);
 }
-if global.boost = true and global.usingBoost = true
-{
-	instance_create_layer(camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 35, "instances", oBoost)
-}
+//if global.boost = true and global.usingBoost = true
+//{
+//	instance_create_layer(camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 35, "instances", oBoost)
+//}
 
 
 

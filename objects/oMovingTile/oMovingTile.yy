@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "sMovingWall",
-    "path": "sprites/sMovingWall/sMovingWall.yy",
+    "name": "sMovingTile",
+    "path": "sprites/sMovingTile/sMovingTile.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oEnemyPatrol",
+    "path": "objects/oEnemyPatrol/oEnemyPatrol.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oMovingWall",
+  "name": "oMovingTile",
   "tags": [],
   "resourceType": "GMObject",
 }
