@@ -5,7 +5,11 @@ global.keys = 0;
 global.boost = false;
 global.lockedDoor = false;
 global.openedFridge = false;
-inventory = false
+inventory = false;
 
 //items
-global.fish = false
+global.fish = false;
+global.chicken = false;
+global.milk = false;
+//global.watermelon = false;
+

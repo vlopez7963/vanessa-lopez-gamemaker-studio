@@ -43,9 +43,23 @@ if global.lockedDoorText = true
 	{
 		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");
 	}
-	
+
+//items check
+
 if global.fish = true
 	{
 		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 495,camera_get_view_y(view_camera[0])+ 84 )
 	}
+if global.chicken = true
+	{
+		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 395,camera_get_view_y(view_camera[0])+ 84 )
+	}
+if global.milk = true
+	{
+		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 595,camera_get_view_y(view_camera[0])+ 84 )
+	}
+//if global.watermelon = true
+//	{
+//		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 295,camera_get_view_y(view_camera[0])+ 84 )
+//	}
 		

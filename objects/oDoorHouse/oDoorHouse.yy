@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "interact",
+    "path": "folders/Objects/interact.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDoorHouse",

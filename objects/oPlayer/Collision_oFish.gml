@@ -1,7 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-//when I collide with oCoin, destroy coin and boost points
+/// @description 
+//when I collide with oFish 
 if global.coins >=2 and keyboard_check(vk_enter)
 {
 instance_destroy(other);
