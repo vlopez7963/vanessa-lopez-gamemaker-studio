@@ -32,3 +32,12 @@ if global.milk = true and global.fish = true and global.chicken = true
 	global.allItems = true;
 }
 
+if global.openedFridgeEnd = true
+{
+	openFridgeTimer -= 1/room_speed;
+	if openFridgeTimer <= 0
+	{
+		game_restart();
+	}
+}
+

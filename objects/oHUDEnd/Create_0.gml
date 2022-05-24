@@ -4,6 +4,7 @@
 global.openedFridgeEnd = false;
 global.keys = 0;
 inventory = false;
+openFridgeTimer = 5;
 
 //items collected
 global.allItems = false;

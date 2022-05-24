@@ -1,0 +1,8 @@
+FONTS:
+
+Source Code Pro
+Showcard Gothic
+Segoe Print
+OCR A Extended
+Myanmar Text
+

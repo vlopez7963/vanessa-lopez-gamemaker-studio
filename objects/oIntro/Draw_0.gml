@@ -4,9 +4,9 @@ draw_set_font(fDubai)
 draw_text(32, 32, "move RIGHT = press ->");
 draw_text(32, 64, "move LEFT = press <-");
 draw_text(32, 96, "JUMP = press SPACEBAR");
-draw_text(32, 128, "ENTER CAR = press ENTER");
-draw_text(32, 160, "EXIT CAR = press BACKSPACE");
-draw_text(32, 192, "OPEN DOOR = press ENTER while running into door");
+draw_text(32, 128, "OPEN or ENTER anything = press ENTER");
+draw_text(32, 160, "CLOSE or EXIT anything = press BACKSPACE");
+draw_text(32, 192, "open DOOR = press ENTER while running into door");
 
 //draw_text(128, 224, "(must have a key first)");
 

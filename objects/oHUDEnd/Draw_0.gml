@@ -30,4 +30,7 @@ if global.allItems = true and global.openedFridgeEnd = true
 	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "PERFECT!");
 }
 
-
+if openFridgeTimer <= 2
+{
+	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 160, "THANK YOU FOR PLAYING!");
+}

@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interact",
+    "path": "folders/Sprites/interact.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDoor",
