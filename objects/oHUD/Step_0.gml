@@ -32,3 +32,20 @@ if global.boost = true
 		boostText = false
 	}
 }
+
+//check which items are true
+if global.milk = true and global.fish = false and global.chicken = false
+{
+	global.milkItem = true;
+}
+
+if global.fish = true and global.milk = false and global.chicken = false
+{
+	global.fishItem = true;
+}
+
+if global.milk = true and global.fish = true and global.chicken = false
+{
+	global.twoItems = true;
+}
+

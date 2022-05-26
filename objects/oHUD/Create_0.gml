@@ -15,3 +15,9 @@ boostText = false
 //list
 objectsDestroyed = [];
 global.createdObjectID = 0
+
+//items collected
+global.allItems = false;
+global.twoItems = false;
+global.fishItem = false;
+global.milkItem = false;

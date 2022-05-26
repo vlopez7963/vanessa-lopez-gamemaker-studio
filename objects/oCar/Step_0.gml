@@ -54,15 +54,15 @@ if(xDirection != 0)
 }
 
 //dash - finish it later
-if keyboard_check(vk_shift)
+if global.boost = true and keyboard_check(vk_shift)
 {
-	boost = true;
+	global.usingBoost = true
 	xSpeed = 9;
 	jumpForce = -5;
 }
 else 
 {
-	boost = false;
+	global.usingBoost = false
 	xSpeed = 7;
 	jumpForce = -4;
 }

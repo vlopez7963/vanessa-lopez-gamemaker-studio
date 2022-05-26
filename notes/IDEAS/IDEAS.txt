@@ -1,0 +1,14 @@
+
+
+milk = 3 coins
+fish = 4 coins
+chicken = 4 coins
+
+15 coins total
+3 lvls with 5 coins each
+
+1 level: construction site
+
+2 level: car
+
+3 level: ?

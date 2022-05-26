@@ -4,11 +4,11 @@
 draw_set_font(fDubai)
 
 
-draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 32, "Coins: " +string(global.coins));
+draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 40, "Coins: " +string(global.coins));
 if global.level = true
 {
 draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 64, "HP: " +string(global.hp));
-draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 96,"Time Remaining: " + string(floor(levelTimer)));
+draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16,"Time Remaining: " + string(floor(levelTimer)));
 
 //draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 64, "Keys: " +string(global.keys));
 //draw_text(camera_get_view_x(view_camera[0]) + 92, camera_get_view_y(view_camera[0]) + 90, "Boost " +string(global.boost));
@@ -48,15 +48,15 @@ if global.lockedDoorText = true
 
 if global.fish = true
 	{
-		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 495,camera_get_view_y(view_camera[0])+ 84 )
+		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 495,camera_get_view_y(view_camera[0])+ 54 )
 	}
 if global.chicken = true
 	{
-		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 395,camera_get_view_y(view_camera[0])+ 84 )
+		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 395,camera_get_view_y(view_camera[0])+ 54 )
 	}
 if global.milk = true
 	{
-		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 595,camera_get_view_y(view_camera[0])+ 84 )
+		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 595,camera_get_view_y(view_camera[0])+ 54 )
 	}
 //if global.watermelon = true
 //	{

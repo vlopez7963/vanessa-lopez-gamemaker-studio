@@ -12,26 +12,8 @@ else
 	inventory = false;
 }
 
-if global.milk = true and global.fish = false
-{
-	global.milkItem = true;
-}
 
-if global.fish = true and global.milk = false
-{
-	global.fishItem = true;
-}
-
-if global.milk = true and global.fish = true and global.chicken = false
-{
-	global.twoItems = true;
-}
-
-if global.milk = true and global.fish = true and global.chicken = true
-{
-	global.allItems = true;
-}
-
+//restart game timer
 if global.openedFridgeEnd = true
 {
 	openFridgeTimer -= 1/room_speed;

@@ -20,13 +20,13 @@ if global.boost = true and keyboard_check(vk_shift)
 {
 	global.usingBoost = true
 	xSpeed = 5.5;
-	jumpForce = -7.5;
+	jumpForce = -6.2;
 }
 else 
 {
 	global.usingBoost = false
 	xSpeed = 4;
-	jumpForce = -6;
+	jumpForce = -5.2;
 }
 
 //set sprite

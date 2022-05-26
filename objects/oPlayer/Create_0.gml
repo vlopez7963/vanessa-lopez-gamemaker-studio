@@ -15,7 +15,7 @@ yVector = 0;
 
 //gravity levels
 grv = 0.3;
-jumpForce = -6;
+jumpForce = -5.2;
 
 
 //invincibility
