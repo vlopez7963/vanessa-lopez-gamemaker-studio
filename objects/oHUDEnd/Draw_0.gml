@@ -12,25 +12,25 @@ draw_set_font(fBondoni)
 
 if global.twoItems = true and global.openedFridgeEnd = true
 {
-	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 160, "GREAT JOB!");
+	draw_text(camera_get_view_x(view_camera[0]) + 220, camera_get_view_y(view_camera[0]) + 160, "GREAT JOB!");
 }
 
 if global.fishItem = true and global.twoItems = false and global.openedFridgeEnd = true
 {
-	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 160, "Good Job");
+	draw_text(camera_get_view_x(view_camera[0]) + 220, camera_get_view_y(view_camera[0]) + 160, "Good Job");
 }
 
 if global.milkItem = true and global.twoItems = false and global.openedFridgeEnd = true
 {
-	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 160, "Good Job");
+	draw_text(camera_get_view_x(view_camera[0]) + 220, camera_get_view_y(view_camera[0]) + 160, "Good Job");
 }
 
 if global.allItems = true and global.openedFridgeEnd = true
 {
-	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 160, "PERFECT!");
+	draw_text(camera_get_view_x(view_camera[0]) + 220, camera_get_view_y(view_camera[0]) + 160, "PERFECT!");
 }
 
 if openFridgeTimer <= 2
 {
-	draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 192, "THANK YOU FOR PLAYING!");
+	draw_text(camera_get_view_x(view_camera[0]) + 221, camera_get_view_y(view_camera[0]) + 192, "THANK YOU FOR PLAYING!");
 }

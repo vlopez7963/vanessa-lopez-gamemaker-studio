@@ -29,5 +29,6 @@ else
 	jumpForce = -5.2;
 }
 
+
 //set sprite
 

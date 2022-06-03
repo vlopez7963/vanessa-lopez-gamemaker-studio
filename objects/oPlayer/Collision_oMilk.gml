@@ -1,8 +1,8 @@
 /// @description 
 
-if global.coins >=2 and keyboard_check(vk_enter)
+if global.coins >=3 and keyboard_check(vk_enter)
 {
 instance_destroy(other);
-global.coins -=2;
+global.coins -=3;
 global.milk = true
 }

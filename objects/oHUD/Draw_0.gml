@@ -41,7 +41,7 @@ if boostText = true
 //locked door text for oDoorKey
 if global.lockedDoorText = true
 	{
-		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");
+		draw_text(camera_get_view_x(view_camera[0]) + 280, camera_get_view_y(view_camera[0]) + 250, "LOCKED");
 	}
 
 //items check
@@ -62,4 +62,11 @@ if global.milk = true
 //	{
 //		draw_sprite(sCheck, 0, camera_get_view_x(view_camera[0]) + 295,camera_get_view_y(view_camera[0])+ 84 )
 //	}
+
+if global.store = true
+{
+	draw_text( 170, 275, "3 COINS");
+	draw_text( 270, 275, "2 COINS");
+	draw_text( 390, 275, "2 COINS");
+}
 		

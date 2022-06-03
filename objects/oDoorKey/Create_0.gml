@@ -5,4 +5,4 @@ openedDoor = false;
 
 lockedDoorTimer = 1;
 global.lockedDoorText = false;
-
+//global.closed = false;

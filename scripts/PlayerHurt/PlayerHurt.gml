@@ -23,5 +23,5 @@ function PlayerDeath()
 		room_restart();
 		oHUD.levelTimer = 35
 		global.hp = 6;
-		
+		audio_play_sound(Death, 1, 0)
 }

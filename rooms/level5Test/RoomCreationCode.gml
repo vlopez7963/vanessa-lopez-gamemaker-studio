@@ -1,1 +1,2 @@
-global.level = false
+global.level = false;
+global.store = false;

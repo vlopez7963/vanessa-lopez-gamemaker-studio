@@ -6,6 +6,7 @@ global.hp = 6;
 global.keys = 0;
 global.boost = false;
 global.lockedDoor = false;
+global.store = false;
 
 inventory = false
 levelTimer = 35;
@@ -21,3 +22,4 @@ global.allItems = false;
 global.twoItems = false;
 global.fishItem = false;
 global.milkItem = false;
+

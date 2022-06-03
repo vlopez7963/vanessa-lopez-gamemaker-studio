@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.closed = false;
+if keyboard_check(vk_backspace) 
+{
+global.closed = true;
+}

@@ -4,8 +4,8 @@ milk = 3 coins
 fish = 4 coins
 chicken = 4 coins
 
-15 coins total
-3 lvls with 5 coins each
+11 coins total
+3 lvls with 3 coins each
 
 1 level: construction site
 

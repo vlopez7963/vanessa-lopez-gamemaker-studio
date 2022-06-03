@@ -10,10 +10,6 @@ draw_set_font(fDubai)
 
 //if inventory = true
 
-if global.lockedDoor = true
-	{
-		draw_text(camera_get_view_x(view_camera[0]) + 128, camera_get_view_y(view_camera[0]) + 90, "LOCKED");
-	}
 	
 if global.openedFridge = true
 	{

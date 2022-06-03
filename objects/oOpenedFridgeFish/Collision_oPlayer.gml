@@ -3,5 +3,5 @@
 if keyboard_check(vk_backspace) 
 
 {
-instance_change(oFridgeEnd, true);
+instance_change(oDoorKey, true);
 }
