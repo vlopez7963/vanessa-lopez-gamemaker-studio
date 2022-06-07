@@ -7,6 +7,7 @@ global.keys = 0;
 global.boost = false;
 global.lockedDoor = false;
 global.store = false;
+leaving = false;
 
 inventory = false
 levelTimer = 35;

@@ -7,6 +7,11 @@ global.lockedDoor = false;
 global.openedFridge = false;
 inventory = false;
 
+hungry = true;
+leaving = false;
+leavingTimer = 3;
+leavingText = false;
+
 //items
 global.fish = false;
 global.chicken = false;

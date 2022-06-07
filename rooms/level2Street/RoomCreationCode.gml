@@ -1,2 +1,2 @@
-global.level = true
-
+global.level = true;
+global.leaving = false;

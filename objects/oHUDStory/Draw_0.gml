@@ -10,11 +10,22 @@ draw_set_font(fDubai)
 
 //if inventory = true
 
-	
+if hungry = true 
+{
+	draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16,"I'm pretty hungry");
+}
+
 if global.openedFridge = true
 	{
+		hungry = false;
+		leaving = true;
 		draw_sprite(sMilk, 0, camera_get_view_x(view_camera[0]) + 600,camera_get_view_y(view_camera[0])+ 70 )
 		draw_sprite(sFish, 0, camera_get_view_x(view_camera[0]) + 500,camera_get_view_y(view_camera[0])+ 70 )
 		draw_sprite(sChicken, 0, camera_get_view_x(view_camera[0]) + 400,camera_get_view_y(view_camera[0])+ 70 )
 		//draw_sprite(sWatermelon, 0, camera_get_view_x(view_camera[0]) + 300,camera_get_view_y(view_camera[0])+ 100 )
 	}	
+
+if leavingText = true
+{
+		draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16,"Oh no! I should go get some groceries");
+}

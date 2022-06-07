@@ -8,3 +8,4 @@ left = keyboard_check(vk_left);
 jump = keyboard_check_pressed(vk_space);
 xDirection = right - left;
 }
+

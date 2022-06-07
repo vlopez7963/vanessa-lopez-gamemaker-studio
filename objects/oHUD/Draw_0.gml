@@ -68,5 +68,6 @@ if global.store = true
 	draw_text( 170, 275, "3 COINS");
 	draw_text( 270, 275, "2 COINS");
 	draw_text( 390, 275, "2 COINS");
+	draw_text( 350, 250, "Buy Milk AND Fish first");
 }
 		

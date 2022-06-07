@@ -11,16 +11,4 @@ global.milkItem = false;
 global.twoItems = false;
 }
 
-//if global.coins >=0 and global.twoItems = false
-//{
-
-//		lockedDoorTimer -= 1/room_speed;
-//		global.lockedDoorText = true;
-//		if lockedDoorTimer <=0
-//		{
-//			global.lockedDoor = false;
-//			global.lockedDoorText = false;
-//			lockedDoorTimer = 1;
-//		}	
-//}
 
